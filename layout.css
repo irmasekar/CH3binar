@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;300&family=Roboto&display=swap');
+
+
+.intro-games { 
+    background-position: center;
+    background-size: cover;
+    background-image: url('./../images/main-bg.jpg');
+    background-repeat: no-repeat;
+    height: 900px;
+    
+}
+
+.btn-primary {
+    background-color: red;
+}
+
+.navbar-brand-custom {
+    font-size: 26px;
+    margin-left: 100px;
+    padding-inline-end: 30px;
+    margin-right: 100px ;
+    text-decoration: none;
+    font-style:  'Encode Sans SC', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.bg-intro-navbar {
+        background-color: rgba(0, 0, 0, 0.5);
+     
+    }
+    .navbar * {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 800;
+        display: inline-block;
+        
+    }
+    
+    .navbar li {
+        letter-spacing: 0.2em;
+        font-size: 12px;
+        margin-right: 25px;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+    
+    .navbar-nav {
+        margin-left: 100px;
+    }
+
+    
+    .navbar li a {
+        text-decoration: none;
+        margin: 10px;
+    }
+    
+    .intro-hero {
+        height: 100vh;
+        text-align: center;
+        position: relative;
+    }
+    
+
+.h1-intro-games {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    font-size: 3em;
+    font-style:  'Encode Sans SC', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 3em;
+    text-align: center;
+    
+
+       
+}
+    
+.h3-intro-games {
+    color: #fff;
+    margin-bottom: 3em;
+    font-size: 2em;
+    font-style:  'Encode Sans SC', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+    
+}
+
+.btn-intro-games {
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    font-weight: 700;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 20px 80px;
+    font-size: 20px;
+    color: black;
+    border: none; 
+    display: inline-table;
+    }
+    
+    
+    /* .btn-intro-game:hover {
+        background: white;
+        border: 1px solid #FFB548;
+        color: #FFB548;
+    } */
+
+    
+    .wrapper {
+        text-align: center;
+        height: 100px;
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        font-family: 'Encode Sans SC', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        margin-top: 35mm;
+    
+    }
+
+
+    .bg-intro-navbar {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .navbar * {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    
+    .navbar li {
+        letter-spacing: 0.2em;
+        font-size: 14px;
+        margin-right: 25px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .navbar-nav {
+        margin-left: 100px;
+    }
+    
+    .navbar li a {
+        text-decoration: none;
+    }
+    
+    .intro-hero {
+        height: 80vh;
+        text-align: center;
+    }
+    
+    .container {
+        position: relative;
+    }
+    
+    
+    /* Animation */
+    
+    
+      
+      @keyframes down-animation { 
+        /* keadaan awal */
+        0%   { left:0px; top:0px;} 
+        /* keaddan pertengahan */
+        50%  {left:0px; top:100px;}
+        /* keaddan semula */
+        100% { left:0px; top:0px;}
+      }
+    
+      .section2 { 
+        background-image: url('./../images/the-games-bg.jpg');
+        height: 100vh;
+        background-size: cover;
+        background-position: bottom;
+    
+      }
+    
+        
+
+    
+
+ 
